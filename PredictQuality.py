@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from numpy import sum
 from sklearn.naive_bayes import GaussianNB
 
-# https://www.kaggle.com/vishalyo990/prediction-of-quality-of-wine
+
 # Gravando dataframes em variaveis com o pandas
 df = pd.read_csv('winequality-red.csv')
 Y_df = df['quality']
